@@ -47,7 +47,7 @@ For details now how everything has been implemented, refer the source code.
 ## Example
 
 * use the following lines to run the SQL Server Management Query.The function contains the following  types 'boolean','numeric','array','string','object'.
-  > `Declare @JSON varchar(100) = '{  "employee": { "name":"sonoo"} }'`
-  >`select @JSON=  dbo.JSONMapper(@JSON,'employee.ssn','AAA-GG-SSSS','string') /*this line is used to set the JSON object*/`
+  > `Declare @JSON varchar(100) = '{  "employee": { "name":"sonoo"} }'`<br />
+  >`select @JSON=  dbo.JSONMapper(@JSON,'employee.ssn','AAA-GG-SSSS','string') /*this line is used to set the JSON object*/`<br />
   > `select @JSON as Output`
 
