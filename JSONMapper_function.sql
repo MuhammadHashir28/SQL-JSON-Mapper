@@ -9,7 +9,7 @@ SET quoted_identifier ON
 
 go
 
-CREATE FUNCTION [EDE].[JsonMapper] (     @JSON VARCHAR(max),
+CREATE FUNCTION [dbo].[JsonMapper] (     @JSON VARCHAR(max),
                                          @Path    VARCHAR(max),
                                          @SetValue   VARCHAR(max),
                                          @type    VARCHAR(max)
