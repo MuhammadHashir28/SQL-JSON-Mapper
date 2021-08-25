@@ -1,8 +1,8 @@
 # Gaming Blog Website
 
-A multi-page game website built using `HTML` and `CSS` skills which includes custom images, layout, and styling.
+A Scalar valued function that will set and manipulate json object in Sql Server Management Studio 2019.We need to pass JSON Object ,it's Path and value that need to be set with it's type.
 
-Open and view the Project using the `.zip` file provided or at my [Github Repository](https://github.com/MuhammadHashir28/Game-blog-website).
+Open and view the Project using the `.zip` file provided or at my [Github Repository](https://github.com/https://github.com/MuhammadHashir28/SQL-JSON-Mapper).
 
 ## Table of Contents
 - [Getting Started](#getting-started)
@@ -15,7 +15,7 @@ Open and view the Project using the `.zip` file provided or at my [Github Reposi
 
 ## Getting Started
 
-This project was built from scratch using HTML,CSS only with picture credit from 'https://www.warnerbros.com/games-and-apps/batman-arkham-knight'
+This project was built from scratch using SQL Features.
 
 ### Tools Required
 
@@ -27,31 +27,19 @@ No additional installation is required for this project
 
 ## Development
 
-* Create `index.html` as the landing page with the following:
-  * Navbar with links to other pages
-  * Cover image 
-  * Basic page content
-  * Footer with social media links
-  
-* Create `views` directory with the following pages:
-  * `about.html` with about-us info.
-  * `contact.html` with contact details.
-  * `watch.html` with trailer link attached.
-  
-  Reuse navbar and footer code
-
-* Create `css` directory with the following files:
-  * `sample.css` with the global styling
-  
+* Create a new Scalar function with the following:
+  * Use the Required database.
+  * Execute the Function. 
+ 
 For details now how everything has been implemented, refer the source code.
 
 ## Features
 
-* Only first blog post has a dedicated page for it, rest are all dummies.
-* There are 2 major pages for the website: `Landing page` and `Watch Page`.
-* The project also contains a dedicated `About-Us` page.
+* Will allow to create JSON path if the path is not present.
+* Will Update the value based on it's type.
+* Better than JSON Modifiy if we provide them path that is not presenet it will give us error.
 
 ## Running the App
 
 * Open the project through the `.zip` file provided and extract the files. 
-  > Open `index.html` in the browser of your choice.
+  > Open `JSONMapper_function.sql` in the Sql Server Management Studio and execute it on desired database.
