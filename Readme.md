@@ -37,7 +37,7 @@ For details now how everything has been implemented, refer the source code.
 
 * Will allow to create JSON path if the path is not present.
 * Will Update the value based on it's type.
-* Better than JSON Modifiy if we provide them path that is not presenet it will give us error.
+* Better than `json_modify` if we provide them path that is not presenet it will give us error.
 
 ## Running the App
 
@@ -48,6 +48,6 @@ For details now how everything has been implemented, refer the source code.
 
 * use the following lines to run the SQL Server Management Query.The function contains the following  types 'boolean','numeric','array','string','object'.
   > `Declare @JSON varchar(100) = '{  "employee": { "name":"sonoo"} }'`
-    `select @JSON=  dbo.JSONMapper(@JSON,'employee.ssn','AAA-GG-SSSS','string') /*this line is used to set the JSON object*/`
-    `select @JSON as Output`
+  >`select @JSON=  dbo.JSONMapper(@JSON,'employee.ssn','AAA-GG-SSSS','string') /*this line is used to set the JSON object*/`
+  > `select @JSON as Output`
 
