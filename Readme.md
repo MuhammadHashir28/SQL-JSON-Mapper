@@ -1,4 +1,4 @@
-# Gaming Blog Website
+# SQL JSON MAPPER
 
 A Scalar valued function that will set and manipulate json object in Sql Server Management Studio 2019.We need to pass JSON Object ,it's Path and value that need to be set with it's type.
 
